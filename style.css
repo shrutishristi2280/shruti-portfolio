@@ -137,3 +137,29 @@ footer{
         padding:80px 20px;
     }
 }
+.contact-box{
+text-align:center;
+}
+
+.contact-social{
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.contact-social a{
+color:#00ff9c;
+text-decoration:none;
+font-size:18px;
+border:1px solid #00ff9c;
+padding:10px 20px;
+border-radius:6px;
+transition:0.3s;
+}
+
+.contact-social a:hover{
+background:#00ff9c;
+color:black;
+box-shadow:0 0 10px #00ff9c;
+}
